@@ -375,7 +375,6 @@ text-decoration: none;
 	
 }
 /********nav********
-
 .mainBox-nav{
   font: 10px/20px 'Open Sans', sans-serif;
   height: 650px;
@@ -443,7 +442,6 @@ text-decoration: none;
   -o-transition: all .8s ease-in-out;
   transition: all .8s ease-in-out;
 }
-
 .cred {
   color: #969696;
   font-size: 7pt;
@@ -470,26 +468,22 @@ text-decoration: none;
     overflow: hidden;
     position: relative;
 }
-
 .slideshow-slides {
     height: 100%;
     position: absolute;
     width: 100%;
-
 }
 .slideshow-slides .slide {
     height: 100%;
     overflow: hidden;
     position: absolute;
     width: 100%;
-
 }
 .slideshow-slides .slide img {
     left: 50%;
     margin-left: -800px;
     position: absolute;
 }
-
 .slideshow-nav a,
 .slideshow-indicator a {
     background-color: rgba(0, 0, 0, 0); 
@@ -502,7 +496,6 @@ text-decoration: none;
     font-size: 0;
     line-height: 0;
 }
-
 .slideshow-nav a {
     position: absolute;
     top: 50%;
@@ -527,7 +520,6 @@ text-decoration: none;
 .slideshow-nav a.disabled {
     display: none;
 }
-
 .slideshow-indicator {
     bottom: 30px;
     height: 16px;
@@ -552,7 +544,6 @@ text-decoration: none;
 .slideshow-indicator a.active:before {
     margin-left: -130px;
 }
-
 /* JavsScript 無効時 
 .no-js .slideshow {
     height: auto;
@@ -695,7 +686,3 @@ text-decoration: none;
 	width: 99%;
 	color:gray;
 }
-
-
-
- 

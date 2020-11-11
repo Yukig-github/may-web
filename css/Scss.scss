@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+&slideshow-width:1600px;
+&slideshow-height:465px;
+
+.slideshow-box{
+	width: 100%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.slideshow{
+	overflow: hidden;
+	position: relative;
+	min-width:960px;
+	height: 465px;
+	
+	.img{
+		width: &slideshow-width;
+		height: &slideshow-height;
+		display: none;
+		position: absolute;
+		left: 50%;
+		margin-left: -800px;
+	}
+}
+	
+
+	
